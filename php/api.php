@@ -5,7 +5,6 @@
 
     $DB_conn = mysqli_connect( $host, $DB_user, $DB_pass, $DB_name );
 
-
     // Esto corresponde a un URL como la siguiente:
     // https://www.cesarosimani.com.ar/poo/api.php?usuario=cosimani&clave=1234
     if ( isset( $_GET[ 'usuario' ] ) && isset( $_GET[ 'clave' ] ) )  {
