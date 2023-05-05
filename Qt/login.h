@@ -12,6 +12,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class Login; }
 QT_END_NAMESPACE
 
+class Ventana;
+
 class Login : public QWidget
 
 {
@@ -24,8 +26,7 @@ public:
 private:
     Ui::Login * ui;
     QNetworkAccessManager * manager;
-
-
+    Ventana * ventana;
 
 private slots:
     void slot_validar_con_API();

@@ -10,13 +10,16 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    login.cpp
+    login.cpp \
+    ventana.cpp
 
 HEADERS += \
-    login.h
+    login.h \
+    ventana.h
 
 FORMS += \
-    login.ui
+    login.ui \
+    ventana.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

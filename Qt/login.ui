@@ -30,6 +30,9 @@
    </item>
    <item row="3" column="1">
     <widget class="QPushButton" name="pbIngresar">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
      <property name="text">
       <string>Ingresar</string>
      </property>
@@ -49,13 +52,22 @@
     </spacer>
    </item>
    <item row="1" column="1" colspan="2">
-    <widget class="QLineEdit" name="leClave"/>
+    <widget class="QLineEdit" name="leClave">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
    </item>
    <item row="0" column="1" colspan="2">
     <widget class="QLineEdit" name="leUsuario"/>
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>leUsuario</tabstop>
+  <tabstop>leClave</tabstop>
+  <tabstop>pbIngresar</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
