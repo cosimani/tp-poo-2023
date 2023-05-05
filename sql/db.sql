@@ -12,4 +12,4 @@ CREATE TABLE `osi_usuarios` (
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_general_ci;
 
 INSERT INTO `osi_usuarios` ( `usuario`, `clave`, `nombre`, `apellido`, `mail` ) VALUES
-( 'admin', '1234', 'César', 'Osimani', 'cesarosimani@gmail.com' );
+( 'cosimani', '1234', 'César', 'Osimani', 'cesarosimani@gmail.com' );
